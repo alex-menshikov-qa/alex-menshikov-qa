@@ -13,7 +13,7 @@ This profile is the hands-on side of my CV: you can check how I work without tak
 
 Space Shuttle Inc rents out self-flying shuttles and lets customers build their own at the Shipyard. Behind the story is a web app with a REST API and a PostgreSQL database, made to be tested.
 
-- **I designed it.** The requirements come from my manual test documentation, and so do most of its 31 switchable seeded defects: they reproduce bugs from my own bug reports.
+- **I designed it.** The requirements come from my manual test documentation, and so do its seeded defects: 41 of the 45 switchable defects reproduce bugs from my own bug reports.
 - **Claude Code built it** to those requirements: the app, the database, Docker, and CI. I reviewed every stage before it was merged; the plan and the decisions are in [PLAN.md](https://github.com/alex-menshikov-qa/space-shuttle-qa-stand/blob/main/PLAN.md).
 - **The test suites are mine.** 17 UI tests so far (pytest, Selenium WebDriver), running in GitHub Actions on every push, with the Allure report published from `main`.
 - **In progress:** moving the order-flow UI suite and the API suite here from their original repos ([scooter-ui-tests](https://github.com/alex-menshikov-qa/scooter-ui-tests), [scooter-api-tests](https://github.com/alex-menshikov-qa/scooter-api-tests)).
