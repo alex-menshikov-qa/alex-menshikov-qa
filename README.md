@@ -15,8 +15,8 @@ Space Shuttle Inc rents out self-flying shuttles and lets customers build their 
 
 - **I designed it.** The requirements come from my manual test documentation, and so do its seeded defects: 41 of the 45 switchable defects reproduce bugs from my own bug reports.
 - **Claude Code built it** to those requirements: the app, the database, Docker, and CI. I reviewed every stage before it was merged; the plan and the decisions are in [PLAN.md](https://github.com/alex-menshikov-qa/space-shuttle-qa-stand/blob/main/PLAN.md).
-- **The test suites are mine.** 17 UI tests so far (pytest, Selenium WebDriver), running in GitHub Actions on every push, with the Allure report published from `main`.
-- **In progress:** moving the order-flow UI suite and the API suite here from their original repos ([scooter-ui-tests](https://github.com/alex-menshikov-qa/scooter-ui-tests), [scooter-api-tests](https://github.com/alex-menshikov-qa/scooter-api-tests)).
+- **The test suites are mine.** 29 UI tests (pytest, Selenium WebDriver, Chrome and Firefox) and 21 API tests (pytest, Requests), running in GitHub Actions on every push, with the Allure report published from `main`.
+- **Moved here from my earlier repos** ([stellar-burgers-ui-tests](https://github.com/alex-menshikov-qa/stellar-burgers-ui-tests), [scooter-ui-tests](https://github.com/alex-menshikov-qa/scooter-ui-tests), [scooter-api-tests](https://github.com/alex-menshikov-qa/scooter-api-tests)): new locators, data and URLs for the stand, and a few fixes on the way.
 
 ## Manual testing
 
